@@ -1,0 +1,133 @@
+	/*
+      My Purple Dragonfly stylesheet
+      Your Name:JoAnn Weaver
+      Today's Date:11/30/2020
+    */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*body styles*/
+body {
+    background-color: #000000;
+    color: white;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pageName {
+    text-align: center;
+ //   font: bold 1.75em Gigi, script;
+}
+
+.media {
+    margin-left: 80%;
+    display: inline;
+}
+
+hr {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+}
+
+.banner {
+    background-color: #474746;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: .5em;
+    font-weight: bold;
+    color: #cb6ce6;
+    text-align: right;
+}
+
+.stickyCart {
+    position: sticky;
+    top: 0;
+}
+
+/*
+  
+
+#container {
+  width: 90%;
+  border-width: 1px;
+  margin: 10px auto;
+  background-color: #606060; 
+}
+
+p {
+  margin: 0 30px;
+}
+
+.center {
+  text-align: center;
+}
+*/
+/*header styles
+header {
+  margin-bottom: 0;
+  background-color: #333333;
+}
+
+header p img {
+  display: inline;
+  margin: 0 30px;
+  vertical-align: middle;
+}
+
+header p {
+  color: white;
+  font-size: 3em;
+}*/
+#title { /*title in headers*/
+    margin-left: 20%;
+}
+
+/*nav bar style*/
+nav {   
+    margin-top: 15px;
+    margin-right: 40%;
+    background-color: #cb6ce6;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;	
+}
+
+nav li a {
+  margin: auto;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #9c4be7;
+  text-decoration: underline;
+}
+
+
+
+/*footer styles*/
+footer {
+    margin-top: 1em;
+    padding: 20px;
+    border-top: solid thin white;
+    border-bottom: solid thin white;
+    clear: both;
+    background-color: #474746;
+    font: bold 1.75em Gigi, script;
+    text-align: center;
+}
+
+footer .logo {
+    margin-top: -42px;
+    border-radius: 50%;
+    border-width: 20px;
+    border-color: #cb6ce6;
+}
