@@ -54,35 +54,10 @@
         <br /><br /><br /><br /><br /><br />
     <div class="pageName">
         <h2 class="pageName">&nbsp&nbsp&nbspSuccess! Your order has been submitted!</h2>
-        <h2 id="download"></h2>
-        <p id="links"></p><br />
+     
         <br /><br /><br /><br /><br />
     </div>
-        <script>
-            var download = document.getElementById("hidden");
-            //download = "pdf";
-            if (download == "pdf") {
-                document.getElementById("download").innerHTML = "Download the PDF and JPG.";
-                var a = document.createElement("a");
-                a.innerText = "PDF";
-                a.href = "Images/chart.pdf";
-                var links = document.getElementById("links");
-                links.appendChild(a);
-                var br = document.createElement("br");
-                links.appendChild(br);
-                var b = document.createElement("a");
-                b.innerText = " JPG";
-                b.href = "Images/chart.jpg";
-                links.appendChild(b)
-            } else if (download == "svg") {
-                document.getElementById("download").innerHTML = "Download the SVG file.";
-                var a = document.createElement("a");
-                a.innerText = "SVG";
-                a.href = "Images/shirtSVG.jpg";
-                var links = document.getElementById("links");
-                document.getElementById("links").appendChild(a);
-            } 
-        </script>
+        
 
         <div class="container-fluid">
             <p class="media">Find me!</p>
